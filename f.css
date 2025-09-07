@@ -1,0 +1,140 @@
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    margin: 20px;
+}
+
+
+    body{
+      margin:0;
+      padding:40px;
+      background:#f4f5f6;
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    .card{
+      max-width:1100px;
+      margin:0 auto;
+    }
+
+    h1{
+      font-size:24px;
+      margin:0 0 18px 8px;
+      color:var(--navy);
+    }
+
+    .table-wrap{
+      background:transparent;
+      border-radius:6px;
+      overflow:hidden;
+      box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+      table-layout:fixed;
+      background:var(--white);
+    }
+
+    thead th{
+      background:var(--navy);
+      color:var(--white);
+      text-align:left;
+      font-weight:600;
+      padding:18px 20px;
+      position:relative;
+      vertical-align:middle;
+      font-size:15px;
+      background-color: blue;
+      color: white;
+    }
+
+    thead th .col-title{
+      display:inline-block;
+      margin-right:10px;
+    }
+
+    thead th .chev{
+      display:inline-block;
+      width:0;
+      height:0;
+      border-left:6px solid transparent;
+      border-right:6px solid transparent;
+      border-top:6px solid rgba(255,255,255,0.9);
+      vertical-align:middle;
+      opacity:0.85;
+    }
+
+    tbody tr{
+      border-bottom:1px solid rgba(0,0,0,0.02);
+    }
+
+    tbody tr td{
+      padding:22px 20px;
+      vertical-align:middle;
+      font-size:15px;
+      color:var(--text);
+    }
+
+    tbody tr:nth-child(even) td{
+      background:var(--row-alt);
+    }
+
+    td.no{
+      width:48px;
+      text-align:left;
+      font-weight:600;
+    }
+
+    td.actions{
+      width:120px;
+      text-align:right;
+    }
+
+    .btn-add{
+      display:inline-block;
+      background:var(--accent);
+      color:var(--white);
+      padding:10px 16px;
+      border-radius:10px;
+      border:0;
+      font-weight:600;
+      cursor:pointer;
+      box-shadow:var(--shadow);
+      text-decoration:none;
+      color: white;
+      background-color: orange;
+    }
+    
+
+    .pager{
+      display:inline-grid;
+      grid-auto-flow:column;
+      gap:10px;
+    }
+
+    .page{
+      width:44px;
+      height:44px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:8px;
+      border:2px solid rgba(0,0,0,0.08);
+      background:transparent;
+      font-weight:700;
+      cursor:pointer;
+      user-select:none;
+    }
+
+    .page.active{
+      background:var(--navy);
+      color:var(--white);
+      border-color:transparent;
+    }
