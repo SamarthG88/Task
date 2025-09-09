@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Card Image" class="card-image">
+        <h2 class="card-title">Card Title</h2>
+        <p class="card-description">This is a simple description of the card content. It gives an overview of what the card is about.</p>
+        <button class="card-button">Learn More</button>
+    </div>
+
+</body>
+</html>
