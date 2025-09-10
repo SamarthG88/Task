@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.dark-card {
+    background-color: #333;
+    color: #fff;
+}
+
+.outlined-card {
+    background-color: #fff;
+    border: 1px solid #333;
+}
+
+.simple-card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.linked-card {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
